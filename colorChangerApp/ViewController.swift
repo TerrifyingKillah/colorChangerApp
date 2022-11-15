@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         redView.alpha = 0.3
         yellowView.alpha = 0.3
         greenView.alpha = 0.3

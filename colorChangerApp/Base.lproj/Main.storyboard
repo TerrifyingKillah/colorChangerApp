@@ -22,20 +22,25 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIl-wN-wwJ" userLabel="redView">
                                         <rect key="frame" x="0.0" y="0.0" width="173" height="170"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PIl-wN-wwJ" secondAttribute="height" multiplier="173:170" id="tUi-Sr-gbW"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CzE-z2-Eov" userLabel="yellowView">
                                         <rect key="frame" x="0.0" y="191" width="173" height="165"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="CzE-z2-Eov" secondAttribute="height" multiplier="173:165" id="Fj5-eg-o3V"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgd-V0-Ijp" userLabel="greenView">
                                         <rect key="frame" x="0.0" y="377" width="173" height="170"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Bgd-V0-Ijp" secondAttribute="height" multiplier="173:170" id="xRV-gx-O20"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="CzE-z2-Eov" firstAttribute="top" secondItem="OrE-ZW-xak" secondAttribute="top" constant="191" id="U6T-Uu-XUR"/>
-                                    <constraint firstItem="CzE-z2-Eov" firstAttribute="centerY" secondItem="OrE-ZW-xak" secondAttribute="centerY" id="unp-2P-Nfk"/>
-                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIV-qb-ehO">
                                 <rect key="frame" x="140" y="725" width="113" height="35"/>
@@ -52,14 +57,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OrE-ZW-xak" secondAttribute="bottom" constant="152" id="0Cn-ZZ-76u"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PIV-qb-ehO" secondAttribute="bottom" constant="58" id="0Pb-KP-OEi"/>
-                            <constraint firstItem="OrE-ZW-xak" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Bes-HB-52g"/>
-                            <constraint firstItem="PIV-qb-ehO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="OCa-gD-1Vy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OrE-ZW-xak" secondAttribute="trailing" constant="110" id="X2w-H8-GH5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PIV-qb-ehO" secondAttribute="trailing" constant="140" id="edE-ui-sif"/>
-                            <constraint firstItem="PIV-qb-ehO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="666" id="fjv-uX-Ujs"/>
-                            <constraint firstItem="OrE-ZW-xak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="nt3-Td-r3U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PIV-qb-ehO" secondAttribute="bottom" constant="58" id="9yB-EI-7ke"/>
+                            <constraint firstItem="OrE-ZW-xak" firstAttribute="centerX" secondItem="PIV-qb-ehO" secondAttribute="centerX" id="GRp-2z-VXd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PIV-qb-ehO" secondAttribute="trailing" constant="140" id="GqM-Ha-HCk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OrE-ZW-xak" secondAttribute="bottom" constant="152" id="byC-mn-tTp"/>
+                            <constraint firstItem="PIV-qb-ehO" firstAttribute="top" secondItem="OrE-ZW-xak" secondAttribute="bottom" constant="59" id="d6B-rN-VVw"/>
+                            <constraint firstItem="OrE-ZW-xak" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="fpI-bU-Dfr"/>
+                            <constraint firstItem="PIV-qb-ehO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="hgY-We-HJv"/>
                         </constraints>
                     </view>
                     <connections>
