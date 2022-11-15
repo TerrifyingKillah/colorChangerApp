@@ -18,13 +18,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        redView.layer.cornerRadius = 85
         redView.alpha = 0.3
-        
-//        yellowView.layer.cornerRadius = 85
         yellowView.alpha = 0.3
-        
-//        greenView.layer.cornerRadius = 85
         greenView.alpha = 0.3
         
         startButton.layer.cornerRadius = 13
